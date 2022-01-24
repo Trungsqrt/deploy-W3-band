@@ -1,0 +1,127 @@
+/* PC */
+@media (min-width: 1024px){
+    
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* Mobile */
+@media (max-width: 740px){
+    #nav li {
+        display: block;
+        position: relative;
+    }
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav{
+        display: block;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #nav > ul > li:first-child{
+        display: inline-block;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 46px;
+        display: block;
+    }
+
+    .member-list{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .member-item{
+        margin-top: 30px;
+        width: 80%;
+        height: auto;
+        align-self: center;
+    }
+
+    .place-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .place-item{
+        position: relative;
+        left: 0px;
+        width: 53%;
+        margin-bottom: 16px;
+    }
+
+    .table-input{
+        margin-top: inherit;
+        /* width:initial; */
+        float: unset;
+        width: 100%;
+    }
+
+    .s-col-full{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .infor{
+        margin-bottom: 16px;
+        display: block;
+        width: 100%;
+    }
+
+    .col{
+        float:unset;
+        text-align: center;
+    }
+
+    .mess{
+        padding-right: initial;
+        padding-left: 35%;
+        padding-right: 10%;
+    }
+
+    .button-send{
+        float: unset;
+        position: relative;
+        left: 2%;
+        padding-left: 43%;
+        padding-right: 42%;
+        align-self: center;
+    }
+
+    .place-buy-btn{
+        width: 100%;
+    }
+
+    .table{
+        margin-right: initial;
+        width: 100%;
+    }
+
+    .form-control{
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+    }
+
+
+}
